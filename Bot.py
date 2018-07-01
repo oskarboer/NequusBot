@@ -29,7 +29,7 @@ last_meaning = "" #variable to store last request to get meaning function
 
 
 # proxy setting ##################
-proxy = 'http://217.61.106.183:80'
+proxy = 'http://proxy:port'
 
 os.environ['http_proxy'] = proxy
 os.environ['HTTP_PROXY'] = proxy
@@ -46,7 +46,7 @@ os.environ['HTTPS_PROXY'] = proxy
 logger = logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 
-updater = Updater(token='617888050:AAEqmIsJmBrv00PtE82uj1iuxg2iJWa0Rt0')
+updater = Updater(token='-')
 dispatcher = updater.dispatcher
 
 
