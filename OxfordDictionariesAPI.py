@@ -4,8 +4,8 @@ import requests
 import json
 
 # TODO: replace with your own app_id and app_key
-app_id = '463f98dc'
-app_key = 'b95fbc7743b70398f1e02b41b3879d99'
+app_id = '-'
+app_key = '-'
 
 def get_meaning(word):
     language = 'en'
